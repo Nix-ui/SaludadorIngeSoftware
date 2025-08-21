@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-08-21T12:29:31.000Z",
+      "message": "feat: agregar saludar con hola",
+      "url": "https://github.com/Nix-ui/SaludadorIngeSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 30,
+      "additions": 14,
+      "deletions": 16,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
