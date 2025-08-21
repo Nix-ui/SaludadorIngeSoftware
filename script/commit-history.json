@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "535acc2514cce9eb676048c56471c12ba0cfa556",
     "author": "Matheo Quiroga",
     "commit": {
       "date": "2025-08-21T12:29:31.000Z",
       "message": "feat: agregar saludar con hola",
-      "url": "https://github.com/Nix-ui/SaludadorIngeSoftware/commit/HEAD"
+      "url": "https://github.com/Nix-ui/SaludadorIngeSoftware/commit/535acc2514cce9eb676048c56471c12ba0cfa556"
     },
     "stats": {
       "total": 30,
       "additions": 14,
       "deletions": 16,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-08-21T12:51:51.000Z",
+      "message": "feat: saludador.js -> agregar saludar por nombre y refactor: saludador",
+      "url": "https://github.com/Nix-ui/SaludadorIngeSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 38,
+      "additions": 35,
+      "deletions": 3,
       "date": "2025-08-21"
     },
     "coverage": 100,
