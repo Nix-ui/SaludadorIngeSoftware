@@ -25,6 +25,9 @@ class SaludarPorNombre extends Saludador{
     saludar(){
         return "Hola, " + this.nombre;
     }
+    getNombre(){
+        return this.nombre;
+    }
 }
 class SaludarPorHora extends Saludador{
     hora;
@@ -38,10 +41,20 @@ class SaludarPorHora extends Saludador{
         return "Buenas noches, " ;
     }
 }
-
+class SaludarPorGenero extends Saludador{
+    genero;
+    constructor(genero){
+        super();
+        this.genero= genero;
+    }
+    saludar(){
+        if(this.genero.toLowerCase()=="f") return "Hola, Sra." ;
+        if(this.genero.toLowerCase()=="m") return "Hola, Sr." ;
+    }
+}
 
 function saludarConHola(){
     return "Hola, Bienvenido!";
 }
 
-export { SaludarPorNombre, SaludarConHola, saludarConHola, Saludador , SaludarPorHora};
+export { SaludarPorNombre, SaludarConHola, saludarConHola, Saludador , SaludarPorHora, SaludarPorGenero};
