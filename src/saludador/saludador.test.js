@@ -12,3 +12,11 @@ describe("SaludadorConHola.saludar",()=>{
         expect(saludador.saludar()).toBe("Hola, Bienvenido!");
     });
 })
+
+
+describe ("SaludadorPorNombre.saludar",()=>{
+    it("Deberia saludar por nombre",()=>{
+        const saludador = new SaludarPorNombre("Matias");
+        expect(saludador.saludar()).toBe("Hola, Matias");
+    });
+})
