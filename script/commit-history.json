@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "599552b3e3936a94888dfc5468ee73e49833c787",
     "author": "Matheo Quiroga",
     "commit": {
       "date": "2025-08-25T22:50:37.000Z",
       "message": "feat: agregado de un test para saludador por hora",
-      "url": "https://github.com/Nix-ui/SaludadorIngeSoftware/commit/HEAD"
+      "url": "https://github.com/Nix-ui/SaludadorIngeSoftware/commit/599552b3e3936a94888dfc5468ee73e49833c787"
     },
     "stats": {
       "total": 11,
@@ -167,6 +167,25 @@
     },
     "coverage": 56.52,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-08-25T22:51:48.000Z",
+      "message": "feat: agregado de un test para saludador por genero",
+      "url": "https://github.com/Nix-ui/SaludadorIngeSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2025-08-25"
+    },
+    "coverage": 82.61,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
