@@ -6,3 +6,9 @@ describe("Saludador.saludar",()=>{
         expect(saludador.saludar()).toBe("Hola, Bienvenido!");
     });
 })
+describe("SaludadorConHola.saludar",()=>{
+    it("Deberia saludar como base",()=>{
+        const saludador = new SaludarConHola();
+        expect(saludador.saludar()).toBe("Hola, Bienvenido!");
+    });
+})
