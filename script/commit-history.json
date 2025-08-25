@@ -57,18 +57,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9ef338440f2766a123df8d55046540520825b6c9",
     "author": "Matheo Quiroga",
     "commit": {
       "date": "2025-08-21T13:18:56.000Z",
       "message": "feat: agregar Saludar por genero",
-      "url": "https://github.com/Nix-ui/SaludadorIngeSoftware/commit/HEAD"
+      "url": "https://github.com/Nix-ui/SaludadorIngeSoftware/commit/9ef338440f2766a123df8d55046540520825b6c9"
     },
     "stats": {
       "total": 29,
       "additions": 25,
       "deletions": 4,
       "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-08-25T22:22:15.000Z",
+      "message": "feat: Adicion jest para pruebas",
+      "url": "https://github.com/Nix-ui/SaludadorIngeSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 1,
+      "additions": 1,
+      "deletions": 0,
+      "date": "2025-08-25"
     },
     "coverage": 100,
     "test_count": 1,
