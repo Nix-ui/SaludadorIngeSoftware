@@ -1,6 +1,6 @@
 //import sumar from "./sumador";
 
-import { SaludarPorNombre, SaludarConHola, saludarConHola,SaludarPorHora , SaludarPorGenero} from "./saludador.js";
+import { SaludarPorNombre, SaludarConHola, saludarConHola,SaludarPorHora , SaludarPorGenero} from "./saludador/saludador.js";
 
 const horaInput = document.querySelector("#hora-input");
 const nameInput = document.querySelector("#name-input");

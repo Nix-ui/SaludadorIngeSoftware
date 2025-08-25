@@ -13,7 +13,7 @@ class SaludarConHola extends Saludador{
         super();
     }
     saludar(){
-        return  "Hola, " + super.saludar();
+        return  "Hola," + super.saludar();
     }
 }
 class SaludarPorNombre extends Saludador{
