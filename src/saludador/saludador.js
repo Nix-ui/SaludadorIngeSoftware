@@ -48,8 +48,22 @@ class SaludarPorGenero extends Saludador{
         this.genero= genero;
     }
     saludar(){
-        if(this.genero.toLowerCase()=="f") return "Hola, Sra." ;
-        if(this.genero.toLowerCase()=="m") return "Hola, Sr." ;
+        if(this.genero.toLowerCase()=="f") return "Hola, Señorita." ;
+        if(this.genero.toLowerCase()=="m") return "Hola, Joven." ;
+    }
+    getGenero(){
+        return this.genero;
+    }
+}
+class SaludarPorEdad extends SaludarPorGenero{
+    edad;
+    constructor(genero, edad){
+        super(genero);
+        this.edad= edad;
+    }
+    saludar(){
+        if (super.getGenero().toLowerCase()=="f") return this.edad <18 ? super.saludar() : "Hola, Sra";
+        else if (super.getGenero().toLowerCase()=="m") return this.edad <18 ? super.saludar() : "Hola, Sr";
     }
 }
 
@@ -57,4 +71,5 @@ function saludarConHola(){
     return "Hola, Bienvenido!";
 }
 
-export { SaludarPorNombre, SaludarConHola, saludarConHola, Saludador , SaludarPorHora, SaludarPorGenero};
+
+export { SaludarPorNombre, SaludarConHola, saludarConHola, Saludador , SaludarPorHora, SaludarPorGenero, SaludarPorEdad};
