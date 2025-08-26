@@ -33,10 +33,10 @@ describe("SaludadorPorHora.saludar",()=>{
 describe("SaludadorPorGenero.saludar",()=>{
     it("Deberia saludar por genero femenino",()=>{
         const saludador = new SaludarPorGenero("f");
-        expect(saludador.saludar()).toBe("Hola, Sra.");
+        expect(saludador.saludar()).toBe("Hola, Señorita.");
     });
     it("Deberia saludar por genero masculino",()=>{
         const saludador = new SaludarPorGenero("m");
-        expect(saludador.saludar()).toBe("Hola, Sr.");
+        expect(saludador.saludar()).toBe("Hola, Joven.");
     });
 })
